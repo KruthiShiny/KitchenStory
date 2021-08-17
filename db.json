@@ -1,0 +1,70 @@
+{
+  "AllProducts": [
+    {
+      "id": 1,
+      "title": "rice",
+      "price": 52,
+      "category": "foodGrains",
+      "image":"./assets/images/rice-grain.jpg"
+    },
+     {
+      "id": 2,
+      "title": "atta",
+      "price": 100,
+      "category": "foodGrains",
+      "image":"./assets/images/atta.jpg"  
+    },
+    {
+      "id": 3,
+      "title": "chicken",
+      "price": 200,
+      "category": "NonVeg",
+      "image":"./assets/images/nonveg.jpg"
+    },
+    {
+      "id": 4,
+      "title": "spinach",
+      "price": 20,
+      "category": "Vegetables",
+      "image":"./assets/images/spinach.jpg"
+    },
+   {
+      "id": 5,
+      "title": "thurdal",
+      "price": 60,
+      "category": "foodGrains",
+      "image":"./assets/images/thurdall.jpg"
+    },
+   {
+      "id": 6,
+      "title": "carrots",
+      "price": 15,
+      "category": "Vegetables",
+      "image":"./assets/images/carrots.jpg"
+      
+    },
+    {
+      "id": 7,
+      "title": "Fish",
+      "price": 500,
+      "category": "NonVeg",
+      "image":"./assets/images/fish.jpg"
+      
+    },
+    {
+      "id": 8,
+      "title": "urad",
+      "price": 52,
+      "category": "foodGrains",
+      "image":"./assets/images/urad.jpg"
+    },
+    {
+      "id": 1,
+      "title": "beetroot",
+      "price": 11,
+      "category": "Vegetables",
+      "image":"./assets/images/beetroot.jpg"
+    }
+
+      ]
+}

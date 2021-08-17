@@ -1,0 +1,52 @@
+<div class="card-top container-fluid">
+    search:<input type="text" placeholder="searchProducts" ng-model="searchText"/>
+    <div class="form-group">
+    </div>
+    <marquee>
+    <div class="container d-flex">
+        <div class="item">
+            <a>
+                <img [src]="allProducts" alt="">
+                <h6>All products</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img [src]="foodGrains" alt="">
+                <h6>Food Grains</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img [src]="Vegetables" alt="">
+                <h6>Vegetables</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img style="width: 62px; margin-top: 5px;" [src]="NonVeg" alt="">
+                <h6>NonVeg</h6>
+            </a>
+        </div>
+    </div>
+    </marquee>
+</div>
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of AllProductList">
+            
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="">
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>
+                <p><strong>Price:</strong> Rs{{item.price}}</p>
+                <p></p>
+                <p></p>
+                <button class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>
+            </div>
+        </ng-container>
+
+    </div>
+</div>
+<div>
+    <button class="btn btn-primary" (click)="adminLogin()">AdminLogin</button>
+</div>

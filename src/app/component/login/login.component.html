@@ -1,0 +1,18 @@
+
+<div ng-controller="MainCtrl" class="container">
+    <form>
+       UserName: <input type="text" value={{username}}><br><br>
+        Password: <input type="password" value={{password}}><br><br>
+                 </form>
+    
+    
+    </div>
+    <script>
+        function customAlert()
+        {
+            {{success}};
+        }
+        var alert = new customAlert(); 
+    </script>
+    <button class="btn btn-primary" onclick="alert('Request Admin to do any update or insert in json file!!!!')">Login</button>
+
